@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --font-principal:'Poppins', sans-serif;
+    --bg-primary: #222831;
+    --bg-secundary: #393E46;
+    --color-primary: #00ADB5;
+    --color-secundary: #EEEEEE;
+}
+
+body {
+    background-color: var(--bg-secundary);
+    color: var(--color-primary);
+    font-family: var(--font-principal);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0.5em 0em 1em;
+}
+
+.btn-jogar {
+    padding: 1em;
+    color: #00ADB5;
+    background-color: var(--bg-primary);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    background-color: var(--color-primary);
+    color: var(--bg-secundary);
+}
+
+.box {
+    border: var(--color-primary) solid 2px;
+    display: inline-block;
+    font-size: 4em;
+    padding: 0.5em;
+    margin: 0.2em 0em 0.3em;
+}
+
+@media (max-width: 300px) {
+    h1, h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    .box {
+        font-size: 2rem;
+    }
+
+}
