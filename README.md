@@ -9,5 +9,5 @@ Criando um jogo com reconhecimento de voz usando JavaScript, foi feito do zero.
 * HTML
 * CSS
 
-#Estado:
+# Estado:
 * Finalizado
